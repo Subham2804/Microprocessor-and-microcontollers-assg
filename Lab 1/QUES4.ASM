@@ -1,0 +1,10 @@
+
+;<Program title>
+
+LHLD 8C00H
+XCHG
+LHLD 8C02H
+DAD D
+SHLD 8C04H
+
+hlt

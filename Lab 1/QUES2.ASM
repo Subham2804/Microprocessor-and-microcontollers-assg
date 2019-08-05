@@ -1,0 +1,10 @@
+
+;<Program title>
+LDA 08C00H
+MOV B,A
+LDA 08C01H
+ADD B
+STA 08C02H
+
+
+hlt
